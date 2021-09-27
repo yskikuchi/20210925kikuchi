@@ -1,0 +1,90 @@
+.container {
+    background-color: midnightblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-list {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+button {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid;
+}
+
+.btn-add {
+    color: violet;
+    border-color: violet;
+}
+.btn-add:hover {
+    background-color: violet;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.btn-update {
+    color: salmon;
+    border-color: salmon;
+}
+
+.btn-update:hover {
+    background-color: salmon;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.btn-delete {
+    color: cyan;
+    border-color: cyan;
+}
+
+.btn-delete:hover {
+    background-color: cyan;
+    color: #fff;
+    transition: 0.5s;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+.form-add {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+}
+
+.input-add {
+    width: 80%;
+}
+
+.input-update {
+    height: 30px;
+    width: 100%;
+}
+
+table {
+    margin: 0 auto;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 10px 0;
+    text-align: center;
+}
